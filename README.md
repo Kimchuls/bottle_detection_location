@@ -12,9 +12,9 @@ result-\*\*\*.txt : iou_for_com.py和iou_for_lr.py的结果
 
 
 
-**bottle文件夹:**
+**bottle文件夹：（上传.zip文件）**
 
-  \*\_size文件夹表示\*类型的灰度图图片
+  \*\_size文件夹表示\*类型的灰度图图片（文件过大，未上传）
 
   resharp.py程序用于将灰度图转化为RGB格式的图片，存储在新建的文件夹中
 
@@ -24,7 +24,7 @@ result-\*\*\*.txt : iou_for_com.py和iou_for_lr.py的结果
 
 
 
-**common_exp文件夹：**
+**common_exp文件夹：（上传.zip文件）**
 
   文件夹如“FR-deploy-on-circle-to-waterdrop”命名表示“FR算法”在“圆形瓶数据集上训练”并在“水滴形瓶数据集上测试”的标注文件，内部包含对应算法的测试结果标注文件。
 
@@ -36,7 +36,7 @@ result-\*\*\*.txt : iou_for_com.py和iou_for_lr.py的结果
 
 
 
-**learning_rate_exp文件夹：**
+**learning_rate_exp文件夹：（上传.zip文件）**
 
   文件夹“\*\*\_x\_y”表示\*\*算法，学习率倍数为（1-5,0.5），（1-10,0.1），（1-20,0.05），（5-1,5），（10-1,0），内部包含对应算法-学习率的测试结果标注文件。
 
